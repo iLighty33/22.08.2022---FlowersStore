@@ -113,7 +113,6 @@ namespace UI {
 
 }
 
-
 namespace View {
 
 	class View {
@@ -207,6 +206,151 @@ namespace DataAccessLayer {
 			Checks.push_back(el);
 		}
 	}
+
+}
+
+namespace model {
+
+	class Employee {
+	public:
+
+		// проверка соответствия учётных данных()
+
+		void isActive(bool &isAct) {
+			this->accountIsActive = isAct;
+		}
+
+		bool isActive() {
+			return accountIsActive;
+		}
+
+		// запрос данных из полей()
+
+		int getPassportId() {
+			return passportId;
+		}
+
+		string getNameAndSurname() {
+			return nameAndSurname;
+		}
+
+		string getWorkScedule() {
+			return workScedule;
+		}
+
+		string getLogin() {
+			return login;
+		}
+
+		// изменение данных из полей()
+
+		void setPassportId(int &passId) {
+			this->passportId = passId;
+		}
+
+		void setNameAndSurname(string &nameAndSurname) {
+			this->nameAndSurname = nameAndSurname;
+		}
+
+		void setWorkScedule(string &workScedule) {
+			this->workScedule = workScedule;
+		}
+
+		void setLogin(string &login) {
+			this->login = login;
+		}
+
+	private:
+		bool accountIsActive;
+		int passportId;
+		string nameAndSurname;
+		string workScedule;
+		string login;
+	};
+
+	class Product {
+	public:
+		//запрос данных из полей()
+		
+		string getName() {
+			return this->name;
+		}
+
+		int getGabarits() {
+			return this->gabarits;
+		}
+
+		int getColor() {
+			return this->color;
+		}
+
+		//изменение данных из полей()
+
+		void setName(string &name) {
+			this->name = name;
+		}
+
+		void setGabarits(int &gabarits) {
+			this->gabarits = gabarits;
+		}
+
+		void setColor(int &color) {
+			this->color = color;
+		}
+
+	private:
+		string name;
+		int gabarits;
+		int color;
+	};
+
+	class Warehouse {
+	private:
+		vector <Flower> Flowers;
+		vector <Bouquet> Bouqets;
+		vector <TeddyBear> TeddyBears;
+		vector <Package> Packages;
+		vector <Ribbon> Ribbons;
+	};
+
+	// Classes Of Stuff
+
+	class Flower {
+
+		int color;
+		int quantity;
+		int cost;
+
+		string type;
+
+	};
+	class Bouquet {
+
+		bool size = 0; // 1 - Big or 0 - small
+		bool withDecorations = 0; // 0 - without, 1 - with
+		bool type = 0; // 1 - paper, 2 - cellophane
+
+	};
+	class TeddyBear {
+
+		int color;
+		int quantity;
+		int cost;
+
+		string type;
+
+	};
+	class Package {
+
+		bool isReady = 0; // 0 - not ready, 1 - ready
+		bool type = 0; // 0 - small, 1 - big
+
+	};
+	class Ribbon {
+
+		bool withOrWithout = 0; // 0 - without, 1 - with
+
+	};
 
 }
 
