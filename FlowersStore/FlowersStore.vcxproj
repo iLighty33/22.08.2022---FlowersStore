@@ -127,7 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Recept.cpp" />
+    <ClCompile Include="Security.cpp" />
+    <ClCompile Include="SellingPosition.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="Worker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Recept.h" />
+    <ClInclude Include="Security.h" />
+    <ClInclude Include="SellingPosition.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="Worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
