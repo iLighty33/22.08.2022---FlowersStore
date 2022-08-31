@@ -140,6 +140,7 @@
     <ClInclude Include="Recept.h" />
     <ClInclude Include="Security.h" />
     <ClInclude Include="SellingPosition.h" />
+    <ClInclude Include="Source.h" />
     <ClInclude Include="Storage.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>

@@ -122,7 +122,7 @@ namespace View {
 
 }
 
-
+/*
 namespace model {
 
 	class Employee {
@@ -212,6 +212,8 @@ namespace model {
 			this->color = color;
 		}
 
+
+
 	private:
 		string name;
 		int gabarits;
@@ -219,12 +221,13 @@ namespace model {
 	};
 
 	class Warehouse {
-	private:
-		vector <Flower> Flowers;
-		vector <Bouquet> Bouqets;
-		vector <TeddyBear> TeddyBears;
-		vector <Package> Packages;
-		vector <Ribbon> Ribbons;
+	protected:
+		std::vector <Flower*> Flowers_;
+		std::vector <Bouquet*> Bouqets_;
+		std::vector <TeddyBear*> TeddyBears_;
+		std::vector <Package*> Packages_;
+		std::vector <Ribbon*> Ribbons_;
+
 	};
 
 	// Classes Of Stuff
@@ -268,6 +271,12 @@ namespace model {
 
 }
 
+
+void model::Warehouse(Flower* Flowers) {
+	this->Flowers_ = Flowers;
+}
+*/
+
 int main() {
 
 	int checksQuantity = 30;
@@ -277,6 +286,8 @@ int main() {
 	BussinessLogics::Florist Florist_1;
 	BussinessLogics::Florist Florist_2;
 	BussinessLogics::Florist Florist_3;
+
+	//model::Warehouse myWarehouse1;
 
 	return 0;
 }
