@@ -5,8 +5,11 @@ namespace BussinessLogics {
 	class sellingPosition {
 	public:
 		sellingPosition();
-		sellingPosition(std::string nameOfProduct, int quantity, int timeOfRealization, double cost) : nameOfProduct_(nameOfProduct), quantity_(quantity), timeOfRealization_(timeOfRealization), cost_(cost) {}
+		sellingPosition(int id, std::string nameOfProduct, int quantity, int timeOfRealization, double cost) : id_(id), nameOfProduct_(nameOfProduct), quantity_(quantity), timeOfRealization_(timeOfRealization), cost_(cost) {}
 	
+		void setId(int& id);
+		int getId();
+
 		void setNameOfProduct(std::string& nameOfProduct);
 		std::string getNameOfProduct();
 
@@ -21,6 +24,7 @@ namespace BussinessLogics {
 
 	private:
 
+		int id_;
 		std::string nameOfProduct_;
 		int quantity_;
 		int timeOfRealization_;

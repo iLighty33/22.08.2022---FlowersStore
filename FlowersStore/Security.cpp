@@ -6,8 +6,6 @@ void BussinessLogics::Security::fillMyVector(BussinessLogics::Worker& Workers, i
 
     for (auto& el : vectTemp) {
 
-        
-
 
     }
 }

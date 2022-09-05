@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+//#include <wx/wxprec.h>
 #include "Item.h"
 #include "Recept.h"
 #include "Storage.h"

@@ -50,7 +50,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BussinessLogics::activeProduct">
-    <Position X="14" Y="4" Width="1.5" />
+    <Position X="14" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item.h</FileName>
@@ -59,7 +59,7 @@
   <Class Name="BussinessLogics::Check">
     <Position X="14" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAIAAAQgAAAAAEAAAIAAQAAA=</HashCode>
       <FileName>Recept.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -73,7 +73,7 @@
   <Class Name="BussinessLogics::sellingPosition">
     <Position X="15.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAACQAAAAAAACAACAIAAAAAAA=</HashCode>
+      <HashCode>ABBIAIMAAAAAAEAAAAAAACQAAAAAACCAACAIAAAAAAA=</HashCode>
       <FileName>SellingPosition.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -85,9 +85,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BussinessLogics::Security">
-    <Position X="14" Y="1.75" Width="1.5" />
+    <Position X="14" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAEAAA=</HashCode>
       <FileName>Security.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -113,7 +113,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="View::View">
-    <Position X="14" Y="3" Width="1.5" />
+    <Position X="14" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Source.cpp</FileName>

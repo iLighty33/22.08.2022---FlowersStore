@@ -4,6 +4,14 @@ BussinessLogics::sellingPosition::sellingPosition() {
 
 }
 
+void BussinessLogics::sellingPosition::setId(int& id) {
+	this->id_ = id;
+}
+
+int BussinessLogics::sellingPosition::getId() {
+	return this->id_;
+}
+
 void BussinessLogics::sellingPosition::setNameOfProduct(std::string& nameOfProduct) {
 	this->nameOfProduct_ = nameOfProduct;
 }

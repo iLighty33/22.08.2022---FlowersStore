@@ -13,6 +13,10 @@ namespace BussinessLogics {
 		void addPositionToCheck(std::vector<sellingPosition> & mySellingPosition);
 
 		void removePositionInCheck(std::vector<sellingPosition>& mySellingPosition);
+		
+		int depth()const;
+
+		sellingPosition& at(int i);
 
 	private:
 
