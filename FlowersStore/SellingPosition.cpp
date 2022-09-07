@@ -16,7 +16,7 @@ void BussinessLogics::sellingPosition::setNameOfProduct(std::string& nameOfProdu
 	this->nameOfProduct_ = nameOfProduct;
 }
 
-std::string BussinessLogics::sellingPosition::getNameOfProduct() {
+std::string BussinessLogics::sellingPosition::getNameOfProduct() const {
 	return this-> nameOfProduct_;
 }
 

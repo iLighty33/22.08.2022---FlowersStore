@@ -9,7 +9,7 @@ namespace BussinessLogics {
 		void fillMyVector(BussinessLogics::Worker& Workers, int& workersQuantity);
 		int workersQuantity = 0;
 	private:
-		std::vector <Worker> Workers;
+		std::vector <Worker*> Workers;
 
 	};
 

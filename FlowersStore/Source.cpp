@@ -288,6 +288,11 @@ int main() {
 	BussinessLogics::Florist Florist_2;
 	BussinessLogics::Florist Florist_3;
 
+	std::string mySellingPosition = "Mayka";
+	int mySellingPositionQuantity = 5;
+	BussinessLogics::Storage myStorage;
+	myStorage.fillMySellingPositions(mySellingPosition, mySellingPositionQuantity);
+
 	//model::Warehouse myWarehouse1;
 
 	return 0;
